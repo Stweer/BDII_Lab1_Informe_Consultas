@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>Database1</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{7df0b98c-8992-44a7-814b-42f757cf1981}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>Database1</RootNamespace>
+    <AssemblyName>Database1</AssemblyName>
+    <ModelCollation>3082,CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+    <DefaultCollation>Modern_Spanish_CI_AS</DefaultCollation>
+    <DefaultFilegroup>PRIMARY</DefaultFilegroup>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Tables\" />
+    <Folder Include="ScriptsConsultas" />
+    <Folder Include="ScriptsConsultas\Actividad1" />
+    <Folder Include="ScriptsConsultas\Actividad2" />
+    <Folder Include="ScriptsConsultas\Actividad3" />
+    <Folder Include="ScriptsConsultas\Actividad4" />
+    <Folder Include="ScriptsConsultas\Actividad5" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\regions.sql" />
+    <Build Include="dbo\Tables\countries.sql" />
+    <Build Include="dbo\Tables\locations.sql" />
+    <Build Include="dbo\Tables\departments.sql" />
+    <Build Include="dbo\Tables\jobs.sql" />
+    <Build Include="dbo\Tables\employees.sql" />
+    <Build Include="dbo\Tables\job_history.sql" />
+    <PostDeploy Include="ScriptsConsultas\Actividad1\4.1.1.sql" />
+    <None Include="ScriptsConsultas\Actividad1\4.1.2.sql" />
+    <None Include="ScriptsConsultas\Actividad1\4.1.3.sql" />
+    <None Include="ScriptsConsultas\Actividad2\4.2.1.sql" />
+    <None Include="ScriptsConsultas\Actividad2\4.2.2.sql" />
+    <None Include="ScriptsConsultas\Actividad2\4.2.3.sql" />
+    <None Include="ScriptsConsultas\Actividad3\4.3.1.sql" />
+    <None Include="ScriptsConsultas\Actividad3\4.3.2.sql" />
+    <None Include="ScriptsConsultas\Actividad3\4.3.3.sql" />
+    <None Include="ScriptsConsultas\Actividad4\4.4.10.sql" />
+    <None Include="ScriptsConsultas\Actividad4\4.4.1.sql" />
+    <None Include="ScriptsConsultas\Actividad4\4.4.2.sql" />
+    <None Include="ScriptsConsultas\Actividad4\4.4.11.sql" />
+    <None Include="ScriptsConsultas\Actividad4\4.4.12.sql" />
+    <None Include="ScriptsConsultas\Actividad4\4.4.13.sql" />
+    <None Include="ScriptsConsultas\Actividad4\4.4.3.sql" />
+    <None Include="ScriptsConsultas\Actividad4\4.4.14.sql" />
+    <None Include="ScriptsConsultas\Actividad4\4.4.15.sql" />
+    <None Include="ScriptsConsultas\Actividad4\4.4.4.sql" />
+    <None Include="ScriptsConsultas\Actividad4\4.4.5.sql" />
+    <None Include="ScriptsConsultas\Actividad4\4.4.6.sql" />
+    <None Include="ScriptsConsultas\Actividad4\4.4.7.sql" />
+    <None Include="ScriptsConsultas\Actividad4\4.4.8.sql" />
+    <None Include="ScriptsConsultas\Actividad4\4.4.9.sql" />
+    <None Include="ScriptsConsultas\Actividad5\4.5.1.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ScriptsConsultas\Actividad5\4.5.2.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ScriptsConsultas\Actividad5\4.5.3.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ScriptsConsultas\Actividad5\4.5.4.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ScriptsConsultas\Actividad5\4.5.5.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ScriptsConsultas\Actividad5\4.5.6.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ScriptsConsultas\Actividad5\4.5.7.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ScriptsConsultas\Actividad5\4.5.8.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ScriptsConsultas\Actividad5\4.5.9.sql" />
+  </ItemGroup>
+</Project>

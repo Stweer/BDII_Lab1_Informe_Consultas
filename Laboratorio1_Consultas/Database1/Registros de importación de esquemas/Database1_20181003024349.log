@@ -1,0 +1,75 @@
+03/10/2018 09:43:49 a.m.	Este registro contiene información acerca de la operación de importación de esquema en el proyecto 'Database1' del equipo 'ASUS' por el usuario 'Angelo'.
+03/10/2018 09:43:49 a.m.	Se inició la importación del esquema de la base de datos.
+03/10/2018 09:43:52 a.m.	Recopilando opciones de base de datos
+03/10/2018 09:43:52 a.m.	Recopilando usuarios
+03/10/2018 09:43:52 a.m.	Recopilando roles
+03/10/2018 09:43:52 a.m.	Recopilando roles de aplicación
+03/10/2018 09:43:52 a.m.	Recopilando pertenencias a roles
+03/10/2018 09:43:52 a.m.	Recopilando grupos de archivos
+03/10/2018 09:43:52 a.m.	Recopilando catálogos de texto completo
+03/10/2018 09:43:52 a.m.	Recopilando ensamblados
+03/10/2018 09:43:52 a.m.	Recopilando certificados
+03/10/2018 09:43:52 a.m.	Recopilando claves asimétricas
+03/10/2018 09:43:52 a.m.	Recopilando claves simétricas
+03/10/2018 09:43:52 a.m.	Recopilando claves simétricas cifradas
+03/10/2018 09:43:52 a.m.	Recopilando esquemas
+03/10/2018 09:43:52 a.m.	Recopilando colecciones de esquemas XML
+03/10/2018 09:43:52 a.m.	Recopilando tipos de datos definidos por el usuario
+03/10/2018 09:43:52 a.m.	Recopilando tipos definidos por el usuario
+03/10/2018 09:43:52 a.m.	Recopilando tipos de tabla
+03/10/2018 09:43:52 a.m.	Recopilando claves únicas para tipos de tabla
+03/10/2018 09:43:52 a.m.	Recopilando claves principales para tipos de tabla
+03/10/2018 09:43:52 a.m.	Recopilando restricciones CHECK para tipos de tabla
+03/10/2018 09:43:52 a.m.	Recopilando restricciones DEFAULT para tipos de tabla
+03/10/2018 09:43:52 a.m.	Recopilando funciones de partición
+03/10/2018 09:43:52 a.m.	Recopilando esquemas de partición
+03/10/2018 09:43:52 a.m.	Recopilando funciones
+03/10/2018 09:43:52 a.m.	Recopilando funciones cifradas
+03/10/2018 09:43:52 a.m.	Recopilando agregados
+03/10/2018 09:43:52 a.m.	Recopilando procedimientos
+03/10/2018 09:43:52 a.m.	Recopilando procedimientos cifrados
+03/10/2018 09:43:52 a.m.	Recopilando tablas
+03/10/2018 09:43:52 a.m.	Recopilando claves principales
+03/10/2018 09:43:52 a.m.	Recopilando restricciones UNIQUE
+03/10/2018 09:43:52 a.m.	Recopilando claves externas
+03/10/2018 09:43:52 a.m.	Recopilando restricciones DEFAULT
+03/10/2018 09:43:52 a.m.	Recopilando restricciones CHECK
+03/10/2018 09:43:52 a.m.	Recopilando vistas
+03/10/2018 09:43:52 a.m.	Recopilando vistas cifradas
+03/10/2018 09:43:52 a.m.	Recopilando índices
+03/10/2018 09:43:52 a.m.	Recopilando estadísticas
+03/10/2018 09:43:52 a.m.	Recopilando listas de palabras irrelevantes de índices de texto completo
+03/10/2018 09:43:52 a.m.	Recopilando listas de propiedades de búsqueda
+03/10/2018 09:43:52 a.m.	Recopilando propiedades de búsqueda
+03/10/2018 09:43:52 a.m.	Recopilando índices de texto completo
+03/10/2018 09:43:52 a.m.	Recopilando índices de almacenamiento de columnas
+03/10/2018 09:43:52 a.m.	Recopilando índices espaciales
+03/10/2018 09:43:52 a.m.	Recopilando índices XML
+03/10/2018 09:43:52 a.m.	Recopilando desencadenadores cifrados
+03/10/2018 09:43:52 a.m.	Recopilando desencadenadores
+03/10/2018 09:43:52 a.m.	Recopilando DDL triggers cifrados y de CLR
+03/10/2018 09:43:52 a.m.	Recopilando DDL triggers
+03/10/2018 09:43:52 a.m.	Recopilando sinónimos
+03/10/2018 09:43:52 a.m.	Recopilando valores predeterminados
+03/10/2018 09:43:52 a.m.	Recopilando enlaces UDDT de restricción de datos
+03/10/2018 09:43:52 a.m.	Recopilando reglas
+03/10/2018 09:43:52 a.m.	Recopilando enlaces UDDT de restricción de datos
+03/10/2018 09:43:52 a.m.	Recopilando tipos de mensaje
+03/10/2018 09:43:52 a.m.	Recopilando colas
+03/10/2018 09:43:52 a.m.	Recopilando contratos
+03/10/2018 09:43:52 a.m.	Recopilando servicios
+03/10/2018 09:43:52 a.m.	Recopilando notificaciones de eventos
+03/10/2018 09:43:52 a.m.	Recopilando enlaces de servicio remoto
+03/10/2018 09:43:52 a.m.	Recopilando prioridades de Broker
+03/10/2018 09:43:52 a.m.	Recopilando firmas
+03/10/2018 09:43:52 a.m.	Recopilando opciones de compresión de datos
+03/10/2018 09:43:52 a.m.	Recopilando tipos de secuencia
+03/10/2018 09:43:52 a.m.	Recopilando propiedades extendidas
+03/10/2018 09:43:52 a.m.	Recopilando credenciales
+03/10/2018 09:43:52 a.m.	Recopilando inicios de sesión
+03/10/2018 09:43:52 a.m.	Recopilando auditorías de servidor
+03/10/2018 09:43:53 a.m.	Buscando elementos duplicados en el proyecto
+03/10/2018 09:43:53 a.m.	Ha finalizado el procesamiento de los elementos duplicados
+03/10/2018 09:43:53 a.m.	Finalizó la importación de la base de datos.
+03/10/2018 09:43:53 a.m.	Se guardó un resumen de la importación en la siguiente ubicación: D:\Repositorio_VisualStudio\Laboratorio1_Consultas\Database1\Registros de importación de esquemas\Database1_20181003024349.log
+03/10/2018 09:43:53 a.m.	Haga clic en Finalizar para continuar...
