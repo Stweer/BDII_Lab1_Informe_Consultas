@@ -1,0 +1,32 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a compilar
+       Ninguno
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles problemas de datos
+       Ninguno
+
+** Acciones del usuario
+     Crear
+       [dbo].[countries] (Tabla)
+       [dbo].[departments] (Tabla)
+       [dbo].[employees] (Tabla)
+       [dbo].[job_history] (Tabla)
+       [dbo].[jobs] (Tabla)
+       [dbo].[locations] (Tabla)
+       [dbo].[regions] (Tabla)
+       [dbo].[countr_reg_fk] (Clave externa)
+       [dbo].[dept_loc_fk] (Clave externa)
+       [dbo].[emp_dept_fk] (Clave externa)
+       [dbo].[emp_job_fk] (Clave externa)
+       [dbo].[emp_manager_fk] (Clave externa)
+       [dbo].[jhist_dept_fk] (Clave externa)
+       [dbo].[jhist_emp_fk] (Clave externa)
+       [dbo].[jhist_job_fk] (Clave externa)
+       [dbo].[loc_c_id_fk] (Clave externa)
+       [dbo].[emp_salary_min] (Restricción CHECK)
+       [dbo].[jhist_date_interval] (Restricción CHECK)
+
+** Acciones de compatibilidad
