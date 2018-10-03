@@ -67,6 +67,7 @@
     <Folder Include="ScriptsConsultas\Actividad3" />
     <Folder Include="ScriptsConsultas\Actividad4" />
     <Folder Include="ScriptsConsultas\Actividad5" />
+    <Folder Include="ScriptsConsultas\Actividad8" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\regions.sql" />
@@ -125,5 +126,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ScriptsConsultas\Actividad5\4.5.9.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ScriptsConsultas\Actividad8\4.8.1.sql" />
   </ItemGroup>
 </Project>
