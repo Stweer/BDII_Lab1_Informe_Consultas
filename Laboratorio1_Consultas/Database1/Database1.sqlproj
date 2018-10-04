@@ -70,6 +70,8 @@
     <Folder Include="ScriptsConsultas\Actividad8" />
     <Folder Include="ScriptsConsultas\Actividad 9" />
     <Folder Include="ScriptsConsultas\Actividad 10" />
+    <Folder Include="ScriptsConsultas\Actividad6" />
+    <Folder Include="ScriptsConsultas\Actividad7" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\regions.sql" />
@@ -191,5 +193,47 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ScriptsConsultas\Actividad 10\4.10.5.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ScriptsConsultas\Actividad6\4.6.1.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ScriptsConsultas\Actividad6\4.6.2.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ScriptsConsultas\Actividad6\4.6.3.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ScriptsConsultas\Actividad6\4.6.4.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ScriptsConsultas\Actividad6\4.6.5.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ScriptsConsultas\Actividad6\4.6.6.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ScriptsConsultas\Actividad7\4.7.1.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ScriptsConsultas\Actividad7\4.7.2.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ScriptsConsultas\Actividad7\4.7.3.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ScriptsConsultas\Actividad7\4.7.4.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ScriptsConsultas\Actividad7\4.7.5.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ScriptsConsultas\Actividad7\4.7.6.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ScriptsConsultas\Actividad7\4.7.7.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ScriptsConsultas\Actividad7\4.7.8.sql" />
   </ItemGroup>
 </Project>
